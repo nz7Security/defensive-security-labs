@@ -1,0 +1,39 @@
+# contexto y fuentes privadas
+contexto/
+fuentes/
+*.pdf
+*.pptx
+*.docx
+*.vtt
+*.srt
+
+# sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# variables de entorno y secretos
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secrets*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# logs y temporales
+*.log
+tmp/
+temp/
+
+# evidencia y muestras privadas
+evidencia-privada/
+private-evidence/
+malware/
+samples/
