@@ -24,5 +24,6 @@ El laboratorio requiere producir:
 ## Documentación
 
 - [Análisis defensivo](./analisis-defensivo.md)
+- [Informe técnico](./informe-tecnico.md)
 
-Los informes técnico y ejecutivo se incorporarán como entregables independientes.
+El informe ejecutivo se incorporará como entregable independiente.
