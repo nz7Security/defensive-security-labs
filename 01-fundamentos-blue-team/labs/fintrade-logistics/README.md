@@ -25,5 +25,6 @@ El laboratorio requiere producir:
 
 - [Análisis defensivo](./analisis-defensivo.md)
 - [Informe técnico](./informe-tecnico.md)
+- [Informe ejecutivo](./informe-ejecutivo.md)
 
-El informe ejecutivo se incorporará como entregable independiente.
+Los entregables principales del laboratorio ya están documentados. El cierre del módulo se realizará después de la revisión final de navegación, estados y consistencia.
