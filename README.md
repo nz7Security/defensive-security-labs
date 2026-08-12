@@ -13,7 +13,7 @@ El objetivo no es reproducir material académico, sino transformar los conceptos
 A lo largo del recorrido busco desarrollar y documentar capacidades para:
 
 - comprender arquitecturas y entornos desde una perspectiva defensiva;
-- identificar activos, procesos y servicios críticos;
+- identificar activos, procesos y servicios relevantes para la operación;
 - analizar superficies de ataque y exposición;
 - interpretar amenazas y riesgos;
 - priorizar controles según contexto, criticidad e impacto;
@@ -29,11 +29,9 @@ El foco está puesto no solamente en **qué control aplicar**, sino en entender 
 
 ## Ruta de aprendizaje
 
-La estructura del repositorio sigue la progresión de la especialización:
-
 | Módulo | Tema | Estado |
 |---|---|---|
-| 01 | [Fundamentos de Blue Team](./01-fundamentos-blue-team/) | 🟡 En progreso |
+| 01 | [Fundamentos de Blue Team](./01-fundamentos-blue-team/) | 🟢 Completado |
 | 02 | [Atacar para Defender](./02-atacar-para-defender/) | ⚪ Pendiente |
 | 03 | [Security Operations (SOC)](./03-security-operations-soc/) | ⚪ Pendiente |
 | 04 | [Security Operations Engineering & IA](./04-security-operations-engineering-ia/) | ⚪ Pendiente |
@@ -96,14 +94,14 @@ Aplicación práctica mediante análisis de escenarios, identificación de riesg
 
 ## Metodología de trabajo
 
-Los laboratorios se documentan siguiendo un proceso de análisis progresivo:
+Los laboratorios siguen un proceso de análisis progresivo:
 
 ```text
 Contexto
    ↓
-Procesos y activos críticos
+Procesos y activos relevantes
    ↓
-Arquitectura
+Arquitectura y dependencias
    ↓
 Superficie de ataque
    ↓
@@ -142,7 +140,7 @@ El repositorio prioriza:
 - priorización basada en criticidad y riesgo;
 - detección y respuesta;
 - resiliencia;
-- laboratorios documentados paso a paso;
+- laboratorios documentados;
 - justificación de decisiones;
 - separación entre análisis técnico y comunicación ejecutiva.
 

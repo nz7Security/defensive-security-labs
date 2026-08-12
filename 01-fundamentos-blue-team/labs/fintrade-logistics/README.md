@@ -1,6 +1,6 @@
 # Fintrade Logistics — Evaluación defensiva inicial
 
-> Estado: 🟡 En progreso
+> Estado: 🟢 Completado
 
 ## Objetivo
 
@@ -14,17 +14,20 @@ El entorno contempla servicios cloud, Microsoft 365, un ERP interno, un portal p
 
 También existen señales que requieren análisis defensivo: phishing sobre usuarios administrativos, actividad fuera de horario con cuentas válidas, una exposición accidental en cloud, inventario no consolidado, ownership incompleto y alertas con mucho ruido.
 
-## Desafío
+## Entregables
 
-El laboratorio requiere producir:
+- [Análisis defensivo](./analisis-defensivo.md) — razonamiento completo, priorización y mapa defensivo.
+- [Informe técnico](./informe-tecnico.md) — contexto, alcance, objetivos del Blue Team, debilidades de madurez y limitaciones.
+- [Informe ejecutivo](./informe-ejecutivo.md) — cinco acciones iniciales, asimetría defensiva y decisión ejecutiva.
 
-- un informe técnico sobre qué se está defendiendo, los objetivos del Blue Team y las principales debilidades de madurez;
-- un informe ejecutivo con cinco acciones iniciales y la acción que genere mejor asimetría defensiva.
+## Resultado
 
-## Documentación
+El análisis prioriza cinco líneas de trabajo:
 
-- [Análisis defensivo](./analisis-defensivo.md)
-- [Informe técnico](./informe-tecnico.md)
-- [Informe ejecutivo](./informe-ejecutivo.md)
+1. consolidar inventario, dependencias y ownership;
+2. revisar identidades, accesos y privilegios;
+3. mejorar la calidad y priorización de alertas;
+4. fortalecer la validación de cambios y configuraciones cloud;
+5. validar y fortalecer Incident Response.
 
-Los entregables principales del laboratorio ya están documentados. El cierre del módulo se realizará después de la revisión final de navegación, estados y consistencia.
+La gestión de identidades, accesos y privilegios se considera la acción con mejor asimetría inicial porque puede limitar el alcance de una eventual cuenta comprometida sin asumir que los eventos observados demuestran un compromiso real.
